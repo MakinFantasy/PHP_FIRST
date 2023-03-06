@@ -5,30 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../lab1/index.php">
-    <link rel="stylesheet" href="../lab1/style.css">
-    <title>Lab.work №1 Zernov Dmitriy 221-323</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>#1</title>
 </head>
 
 <body>
     <header class="header-wrapper">
-        <img src="" alt="polytechlogo">
-        <h1 class="header__task">2.1.Домашняя работа: Hello, World!</h1>
-        <h2 class="header__fullname">Dmitriy Zernov 221-323</h2>
+        <img src="./logo.jpg" alt="polytechlogo" class="logo">
+        <h2 class="header__fullname">Кулаков Иван 221-323</h2>
     </header>
 
 
     <main class="container">
     <p class="container__task"><?php echo "Hello, world!";?></p>
     </main>
-
-
-    <footer class="container2">
-        <p class="container2__task-desc">Создать веб-страницу с динамическим контентом. 
-            Загрузить код в удаленный репозиторий. Залить на хостинг.</p>
-    </footer>
-
-
 </body>
 
 </html>

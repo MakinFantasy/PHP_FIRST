@@ -7,18 +7,22 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family:"Roboto", sans-serif;
     font-weight: 400;
-}
-
-img {
-    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-wrapper {
-    max-width: 1236px;
     width: 100%;
     margin: 0 auto;
     display: block;
     padding-bottom: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
 }
